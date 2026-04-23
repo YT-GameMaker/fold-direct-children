@@ -35,10 +35,6 @@
     "type": "git",
     "url": "git+https://github.com/YT-GameMaker/fold-direct-children.git"
   },
-  "homepage": "https://github.com/YT-GameMaker/fold-direct-children#readme",
-  "bugs": {
-    "url": "https://github.com/YT-GameMaker/fold-direct-children/issues"
-  },
   "devDependencies": {
     "@vscode/vsce": "^3.6.2"
   }
