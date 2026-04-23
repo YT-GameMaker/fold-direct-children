@@ -1,0 +1,45 @@
+{
+  "name": "fold-direct-children",
+  "displayName": "Fold Direct Children",
+  "icon": "Icon.png",
+  "description": "Toggle direct child folds without collapsing the current scope. Assign your own shortcut in Keyboard Shortcuts.",
+  "publisher": "YT-GameMaker",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.117.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "folding",
+    "code folding",
+    "editor",
+    "navigation"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "foldDirectChildren.toggle",
+        "title": "Toggle Direct Child Folds",
+        "category": "Fold Direct Children"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YT-GameMaker/fold-direct-children.git"
+  },
+  "homepage": "https://github.com/YT-GameMaker/fold-direct-children#readme",
+  "bugs": {
+    "url": "https://github.com/YT-GameMaker/fold-direct-children/issues"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.2"
+  }
+}
