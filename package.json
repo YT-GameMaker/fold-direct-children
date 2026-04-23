@@ -3,7 +3,7 @@
   "displayName": "Fold Direct Children",
   "icon": "Icon.png",
   "description": "Toggle direct child folds without collapsing the current scope. Assign your own shortcut in Keyboard Shortcuts.",
-  "publisher": "YT-GameMaker",
+  "publisher": "YY-GamePlayer",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.117.0"
@@ -39,3 +39,4 @@
     "@vscode/vsce": "^3.6.2"
   }
 }
+
